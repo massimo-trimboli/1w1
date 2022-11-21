@@ -1,0 +1,67 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px #bbb;
+    margin: 0;
+}
+
+/* Menu principal du site.
+on utilise un position fixed pour que le menu reste en haut de chaque section
+*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: orange;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(226, 147, 0);
+}
+
+#acceuil {
+    background-color: greenyellow;
+    flex-flow: column;
+    justify-content: space-around;
+}
+
+#inscriptions {
+    background-color: rgb(248, 82, 185);
+}
+
+#gallerie {
+    background-color: orangered;
+}
+
+#evenements {
+    background-color: aqua;
+}
+
+#video {
+    background-color: blueviolet;
+}
+
+#footer {
+    background-color: #000;
+}
