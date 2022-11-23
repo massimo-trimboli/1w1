@@ -9,6 +9,7 @@ body {
 section {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -40,6 +41,7 @@ nav a:hover {
     background-color: rgb(226, 147, 0);
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////// acceuil*/
 #acceuil {
     background-color: greenyellow;
     flex-flow: column;
@@ -52,6 +54,11 @@ nav a:hover {
 
 #gallerie {
     background-color: orangered;
+}
+
+#tableau {
+    background-color: aquamarine;
+
 }
 
 #evenements {

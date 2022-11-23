@@ -1,0 +1,10 @@
+/*.mon_tableau {
+    border-collapse: collapse;
+    border: 1px solid #aaa;
+}*/
+
+.mon_tableau, td, th {
+    border: 1px solid #aaa;
+    padding: 5px;
+    border-collapse: collapse;
+}
