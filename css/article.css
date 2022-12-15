@@ -1,9 +1,11 @@
 .article {
     border: 1px solid #fff;
     display: flex;
-    flex-direction: row;
+    flex-flow: row nowrap;
+    justify-content: space-between;
     width: 40vw;
-    margin: 5px 50px 5px 50px
+    height: 15vh;
+    margin: 5px 50px 5px 50px;
 }
 
 .article p {
