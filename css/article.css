@@ -1,0 +1,12 @@
+.article {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: row;
+    width: 40vw;
+}
+
+.article p {}
+
+.article img {
+    width: 100px;
+}
