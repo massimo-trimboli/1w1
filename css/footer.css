@@ -1,0 +1,27 @@
+footer {
+    background-color: rgb(0, 1, 12);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+footer a {
+    margin: 10px;
+}
+
+.sociaux a {
+    margin: 10px;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+}
+
+.sociaux img {
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+}
