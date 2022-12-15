@@ -1,0 +1,24 @@
+/* Menu principal du site.
+on utilise un position fixed pour que le menu reste en haut de chaque section
+*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    background-color: orange;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: rgb(226, 147, 0);
+}
+
+nav a:active {
+    background-color: blue;
+}
