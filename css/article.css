@@ -3,10 +3,29 @@
     display: flex;
     flex-direction: row;
     width: 40vw;
+    margin: 5px 50px 5px 50px
 }
 
-.article p {}
+.article p {
+    margin-left: 5px;
+}
 
 .article img {
     width: 100px;
+}
+
+.deux-colonnes-article {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.colonne-article {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.contiens-article {
+    display: flex;
 }
