@@ -6,6 +6,11 @@
     width: 40vw;
     height: 15vh;
     margin: 5px 50px 5px 50px;
+    transition: transform, 1s;
+}
+
+.article:hover {
+    transform: scale(1.1, 1.1);
 }
 
 .article p {

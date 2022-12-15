@@ -4,7 +4,12 @@
     justify-content: center;
 }
 
-img {
+#gallerie img {
     margin: 10px;
     width: 300px;
+    transition: transform, 1s;
+}
+
+#gallerie img:hover {
+    transform: scale(1.2, 1.2);
 }
