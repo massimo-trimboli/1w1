@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tp2-étape-1</title>
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/inscriptions.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tableau.css">
@@ -17,7 +18,7 @@
 <body>
     <nav>
         <a href="#acceuil">Acceuil</a>
-        <a href="#inscriptions">Inscription</a>
+        <a href="#inscription">Inscription</a>
         <a href="#tableau">Tableau</a>
         <a href="#articles">Articles</a>
         <a href="#gallerie">Gallerie</a>
@@ -26,14 +27,47 @@
 
     <section id="acceuil">
         <h1>L'eau</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni totam sunt eos similique tempora voluptatibus vero a eum accusantium, eligendi beatae placeat recusandae voluptatem atque maxime saepe asperiores, officia ab?</p>
+        <h2>L'eau est la base de la vie et le sujet de cette page</h2>
         <h2>Auteur: Massimo Trimboli</h2>
+        <h3>1w1 - Mise en page web</h3>
+
         <a href="https://github.com/massimo-trimboli/1w1">github.com/massimo-trimboli/1w1</a>
         <a href="https://massimo-trimboli.github.io/1w1/">Ma GitHub page</a>
+        <p>Collège de maisonneuve | Technique d'intégration multimédia</p>
     </section>
 
-    <section id="inscriptions">
+    <section id="inscription">
         <h1>Inscriptions</h1>
+        <h2>Inscrivez vous à l'eau pour hydrater votre vie</h2>
+        <form>
+            <label
+              >Nom
+              <input
+                placeholder="Entrez votre nom"
+                type="text"
+                name=""
+                id="txtNom"
+              />
+            </label>
+            <label
+              >Prénom
+              <input type="text" name="" id="txtPrenom" />
+            </label>
+            <label 
+              >Courriel
+              <input type="email" name="" id="txtEmail" />
+            </label>
+            <div class="langage">
+              <label for="html">HTML<input type="checkbox" name="" id="html"></label>
+              <label for="css">CSS<input type="checkbox" name="" id="css"></label>
+              <label for="js">JavaScript<input type="checkbox" name="" id="js"></label>
+              <label for="php">PHP<input type="checkbox" name="" id="php"></label>
+            </div>
+            <div class="bouton">
+                <p></p>
+                <button>Soumettre</button>
+            </div>
+          </form>
     </section>
 
     <section id="tableau">

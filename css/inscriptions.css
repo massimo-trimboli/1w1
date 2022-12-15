@@ -1,0 +1,16 @@
+#inscription form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #inscription form label {
+    margin: 10px 0;
+  }
+  #inscription .langage {
+    display: flex;
+  }
+
+  .bouton {
+    display: flex;
+    justify-content: space-between;
+  }
