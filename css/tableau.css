@@ -8,3 +8,16 @@
     padding: 5px;
     border-collapse: collapse;
 }
+
+#tableau caption {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+td {
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}

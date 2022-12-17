@@ -41,5 +41,6 @@ p {
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////// acceuil*/
 #acceuil {
     flex-flow: column;
-    justify-content: space-around;;
+    justify-content: space-around;
+    padding-top: 20px;
 }
